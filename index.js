@@ -65,13 +65,13 @@ async function init() {
 
   if (userShape == "Circle") {
     const circle = new Circle(userInfo.text, newBckClr, newTxtClr);
-    handleGenerateSVG(userInfo.text + ".svg", circle.render());
+    handleGenerateSVG(userInfo.text + "_logo.svg", circle.render());
   } else if (userShape == "Square") {
     const square = new Square(userInfo.text, newBckClr, newTxtClr);
-    handleGenerateSVG(userInfo.text + ".svg", square.render());
+    handleGenerateSVG(userInfo.text + "_logo.svg", square.render());
   } else {
     const triangle = new Triangle(userInfo.text, newBckClr, newTxtClr);
-    handleGenerateSVG(userInfo.text + ".svg", triangle.render());
+    handleGenerateSVG(userInfo.text + "_logo.svg", triangle.render());
   }
 }
 
