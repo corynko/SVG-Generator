@@ -6,7 +6,7 @@ Generate a placeholder logo quickly and easily.
 
 ## Description
 
-Generate a barebones SVG favicon for use on your website in less than one minute.
+Uses NodeJS to generate a barebones SVG favicon for use on your website in less than one minute.
 
 # Table of Contents
 
@@ -19,7 +19,8 @@ Generate a barebones SVG favicon for use on your website in less than one minute
 
 ## Installation
 
-      * Clone the repository onto your local environment.
+      * Clone the repository onto your local environment
+      * Ensure NodeJS is installed
       * Navigate to the directory in your command line. Run `npm i` to install required dependencies
       * Run `node index.js` to start the command line application. Answer the prompts and your SVG will be generated into the parent directory
       * That's it! Couldn't be easier
